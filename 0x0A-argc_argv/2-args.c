@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - A program that prints arguments
- * @argc: command line number
- * @argv: command that print array 
- * Return: 0 (success)
+ * main - prints all arguments
+ * @argc: command line argument
+ * @argv: array that prints command argument
+ * Return: 0 - success.
  */
 
 int main(int argc, char *argv[])
 {
-	int i;
+	int a;
 
-	for (i = 0; i < argc; i++)
-		printf("%s\n", argv[i]);
+	for (a = 0; a < argc; a++)
+		printf("%s\n", argv[a]);
 	return (0);
 }
