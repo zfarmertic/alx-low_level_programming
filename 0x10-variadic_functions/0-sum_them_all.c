@@ -1,7 +1,7 @@
 #include <stdarg.h>
 
 /**
- * This program sums all the function
+ *sum_them_all - this program sums all the function
  *
  * @n: start the input  variables
  *
